@@ -254,15 +254,6 @@ pip install numpy pandas matplotlib seaborn scikit-learn xgboost shap lime meteo
 
 ---
 
-## 👩‍💻 Author
-
-**Malihe Alavi**
-Data Scientist — Medical Imaging & Applied Machine Learning
-
-🔗 GitHub: [@malihealavi](https://github.com/malihealavi)
-
----
-
 <div align="center">
 
 ⭐ If you find this project useful, consider giving it a star!
