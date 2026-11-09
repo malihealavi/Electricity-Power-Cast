@@ -5,13 +5,38 @@
 ### Accurate Electricity Price Forecasting for the German & European Market
 
 *A machine learning pipeline: EDA → feature engineering → imputation → stacked ensemble forecasting*
-
-![Renewable Generation vs Electricity Price](images/Picture2.png)
-![Conventional Generation vs Electricity Price](images/Picture1.png)
-![Total Price vs Actual and Forcast Generation](images/Picture5.png)
-![Features vs Electricity Price](images/Picture6.png)
-![XG boost SHAP](images/SHAP.png)
-![XG boost Feature Importance](images/IMPORTANCE.png)
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/Picture2.png" width="400"><br>
+      <sub>Renewable Generation vs Electricity Price</sub>
+    </td>
+    <td align="center">
+      <img src="images/Picture1.png" width="400"><br>
+      <sub>Conventional Generation vs Electricity Price</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="images/Picture5.png" width="400"><br>
+      <sub>Total Price vs Actual and Forecast Generation</sub>
+    </td>
+    <td align="center">
+      <img src="images/Picture6.png" width="400"><br>
+      <sub>Features vs Electricity Price</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="images/SHAP.png" width="400"><br>
+      <sub>XGBoost SHAP Analysis</sub>
+    </td>
+    <td align="center">
+      <img src="images/IMPORTANCE.png" width="400"><br>
+      <sub>XGBoost Feature Importance</sub>
+    </td>
+  </tr>
+</table>
 
 </div>
 
@@ -180,19 +205,23 @@ The project covers the full data science workflow:
 ```
 Electricity-Power-Cast/
 │
-├── EDA1.ipynb                          # Exploratory data analysis (part 1)
-├── EDA2.ipynb                          # Exploratory data analysis (part 2)
-├── EDA_3.ipynb                         # Exploratory data analysis (part 3)
-├── Feature_Engineering.ipynb           # Merging, new features, external data, missing values
-├── In_depth_analysis.ipynb             # Feature correlations & model-based imputation
-├── Price_Prediction_Models.ipynb       # Random Forest & XGBoost base models
-├── model_aggregated.ipynb              # Stacked ensemble (Linear / Ridge) & evaluation
+├── src/                                    # All notebooks
+│   ├── EDA1.ipynb                          # Exploratory data analysis (part 1)
+│   ├── EDA2.ipynb                          # Exploratory data analysis (part 2)
+│   ├── EDA_3.ipynb                         # Exploratory data analysis (part 3)
+│   ├── Feature_Engineering.ipynb           # Merging, new features, external data, missing values
+│   ├── In_depth_analysis.ipynb             # Feature correlations & model-based imputation
+│   ├── Price_Prediction_Models.ipynb       # Random Forest & XGBoost base models
+│   └── model_aggregated.ipynb              # Stacked ensemble (Linear / Ridge) & evaluation
 │
-├── dates.csv                           # Date index data
-├── normalized_features.csv             # Standardized feature set
-├── transformed_imputed_5_features.csv  # Dataset with the 5 imputed features
+├── images/                                 # Figures used in this README
 │
-└── ElectricityPowerReport.pdf          # Full project report
+├── dates.csv                               # Date index data
+├── normalized_features.csv                 # Standardized feature set
+├── transformed_imputed_5_features.csv      # Dataset with the 5 imputed features
+│
+├── ElectricityPowerReport.pdf              # Full project report
+└── README.md
 ```
 
 ---
