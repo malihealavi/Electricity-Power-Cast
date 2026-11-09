@@ -36,6 +36,16 @@
       <sub>XGBoost Feature Importance</sub>
     </td>
   </tr>
+  <tr>
+    <td align="center">
+      <img src="images/Picture10.png" width="400"><br>
+      <sub>Sweden Day ahead price (actual vs predicted)</sub>
+    </td>
+    <td align="center">
+      <img src="images/Picture11.png" width="400"><br>
+      <sub>Netherland Day ahead price (actual vs predicted)</sub>
+    </td>
+  </tr>
 </table>
 
 </div>
