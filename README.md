@@ -215,11 +215,6 @@ Electricity-Power-Cast/
 │   └── model_aggregated.ipynb              # Stacked ensemble (Linear / Ridge) & evaluation
 │
 ├── images/                                 # Figures used in this README
-│
-├── dates.csv                               # Date index data
-├── normalized_features.csv                 # Standardized feature set
-├── transformed_imputed_5_features.csv      # Dataset with the 5 imputed features
-│
 ├── ElectricityPowerReport.pdf              # Full project report
 └── README.md
 ```
