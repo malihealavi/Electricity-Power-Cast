@@ -108,13 +108,14 @@ The project covers the full data science workflow:
 
 ## 🔍 Exploratory Data Analysis — Highlights
 
-- **Volatility & seasonality:** Prices range from €0 to €400/MWh and are highest in winter.
-- **Generation mix matters:** Conventional sources (lignite, hard coal, fossil gas) correlate positively with price. For example, in DE/LU the correlations are 0.67, 0.56, and 0.65. Renewables correlate negatively.
-- **Price coupling:** Prices across most countries move together. Austria, Germany, Belgium, the Czech Republic, the Netherlands, and France show correlations above 0.92.
-- **Consumption:** Clear daily and weekly cycles, with higher demand in winter. Residual load is much more volatile than total grid load.
-- **Cross-border flows:** Scheduled commercial exchanges and physical flows track each other closely.
-- **Grid costs:** TSO network-security costs show the highest correlation with prices (0.58).
-- **Forecast quality:** The official load forecast is accurate (MAPE 3.71%), but residual-load forecasts are much weaker (MAPE 35.43%).
+- **Electricity Price Volatility and Seasonal Trends:** Electricity prices across European countries exhibit significant volatility, with values ranging from €0/MWh to €400/MWh. Seasonal trends are evident, with winter months showing higher prices due to increased demand for heating. Peaks and troughs in prices are influenced by demand surges, supply shortages, and geopolitical events.
+- **Impact of Renewable vs. Conventional Energy Sources on Prices:**  Renewable energy sources like wind and solar tend to lower electricity prices when available, while conventional sources such as fossil gas, lignite, and coal are associated with higher prices due to their higher financial and environmental costs. The balance between renewable and conventional sources significantly impacts pricing trends.
+- **Electricity Consumption Patterns:**  Consumption follows distinct daily cycles, with lower usage during nighttime hours (0:00–6:00) and peaks in the morning and evening. Seasonal variations show higher consumption during winter months due to heating needs. Residual load (non-renewable energy demand after accounting for renewables) fluctuates more significantly compared to total grid load1.
+-	**Cross-Border Energy Flows:**  Germany's energy imports and exports vary significantly by country. Denmark has the highest imports (493 MWh), while Austria leads in exports (282 MWh). Cross-border flows highlight Germany's role as a major hub for energy exchange in Europe.
+-	**Generation Capacity Trends:** Installed generation capacity has shown a slight year-on-year increase, reflecting rising energy demands. Wind onshore remains the dominant source of electricity generation in Germany, followed by photovoltaics, fossil gas, and lignite1.
+-	**Correlation Between Energy Sources and Prices:** Conventional sources like lignite, coal, and fossil gas show strong positive correlations with electricity prices due to fuel costs and carbon pricing. Renewables generally exhibit negative correlations with price levels, indicating their cost-reducing effect when available.
+-	**Transmission System Operator Costs:** Monthly costs incurred by Transmission System Operators (TSOs) for grid stability vary significantly. Network security costs are the highest and exhibit dramatic fluctuations over time, while countertrading activities remain relatively stable
+
 
 ---
 
