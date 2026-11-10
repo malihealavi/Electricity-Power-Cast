@@ -5,6 +5,13 @@
 ### Accurate Electricity Price Forecasting for the German & European Market
 
 *A machine learning pipeline: EDA → feature engineering → imputation → stacked ensemble forecasting*
+ 
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-Ensemble-green)
+![scikit--learn](https://img.shields.io/badge/scikit--learn-ML-f7931e?logo=scikitlearn&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+ 
 <table>
   <tr>
     <td align="center">
